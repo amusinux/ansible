@@ -9,5 +9,4 @@
 
     - debug: var={{ item }}
       with_items:
-        - hostname.stdout
         - uptime.stdout
