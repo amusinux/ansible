@@ -7,6 +7,12 @@
       changed_when: False
       register: uptime
 
+    - name: get hostname
+      shell: /usr/bin/hostname
+      changed_when: False
+      register: hostname
+
     - debug: var={{ item }}
       with_items:
+        - hostname.stdout
         - uptime.stdout
