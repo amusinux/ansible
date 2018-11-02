@@ -7,7 +7,7 @@
       changed_when: False
       register: uptime
 
-   - debug: var={{ item }}
+    - debug: var={{ item }}
       with_items:
         - hostname.stdout
         - uptime.stdout
