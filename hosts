@@ -8,6 +8,8 @@
 #   - You can enter hostnames or ip addresses
 #   - A hostname/ip can be a member of multiple groups
 
-[dev-unsorted]
+[dev]
+dev03.linux.timocom.net
+
+[ansible-tower]
 ansible-dev02.linux.timocom.net
-jenkins-dev01.linux.timocom.net
