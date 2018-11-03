@@ -11,3 +11,6 @@
 [dev-unsorted]
 ansible-dev02.linux.timocom.net
 172.17.4.15
+
+[dev-unsorted:vars]
+ansible_password=password
