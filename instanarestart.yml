@@ -1,4 +1,3 @@
 ---
 - name: restart instana agent
-  hosts: dev03.linux.timocom.net
   service: name=instana-agent state=restarted
