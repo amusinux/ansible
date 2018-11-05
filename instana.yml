@@ -1,4 +1,0 @@
----
-# This playbook deploys the CheckMK agent
-- name: install apache
-  yum: name=ibm-java80-jdk state=latest update_cache=yes disable_gpg_check=yes
