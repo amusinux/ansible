@@ -1,0 +1,4 @@
+---
+- name: install instana agent package
+   hosts: all  
+   yum: name=instana-agent-dynamic state=latest update_cache=yes disable_gpg_check=yes
