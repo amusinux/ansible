@@ -1,5 +1,5 @@
 ---
 # This playbook deploys the CheckMK agent
 hosts: all  
-- name: install instana agent package
-  yum: name=instana-agent-dynamic state=latest update_cache=yes disable_gpg_check=yes
+   - name: install instana agent package
+     yum: name=instana-agent-dynamic state=latest update_cache=yes disable_gpg_check=yes
