@@ -1,10 +1,10 @@
 ---
 
-- hosts: all
-  tasks:
-    - command: systemctl status {{ item }}
+- name: get status
+      shell: systemctl status {{ item }}
+      changed_when: False
       register: status
-    
+
       with_items:
 
            - docker
