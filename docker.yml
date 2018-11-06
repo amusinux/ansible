@@ -2,4 +2,12 @@
 
 - hosts: all
   tasks:
-    - service: name=docker state=status
+    - command: systemctl status {{ item }}
+    
+      with_items:
+
+           - docker
+
+           - firewalld
+
+           
