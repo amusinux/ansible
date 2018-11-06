@@ -1,0 +1,5 @@
+---
+
+- hosts: docker-dev01.online.timocom.net
+  tasks:
+    - service: name=docker state=status
