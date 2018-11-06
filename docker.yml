@@ -3,9 +3,10 @@
 - hosts: all
   tasks:
     - command: systemctl status {{ item }}
+      register: status
     
       with_items:
 
            - docker
-
+           - status.stdout
            
