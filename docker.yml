@@ -1,12 +1,11 @@
 ---
 
 - name: get status
-      shell: systemctl status {{ item }}
-      changed_when: False
+      shell: systemctl status docker
       register: status
 
       with_items:
 
-           - docker
            - status.stdout
+           
            
