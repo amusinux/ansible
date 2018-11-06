@@ -1,5 +1,5 @@
 ---
 hosts:all
-- name: get status
+- task:
   command: systemctl status docker
       
