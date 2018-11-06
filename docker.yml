@@ -2,10 +2,4 @@
 
 - name: get status
       shell: systemctl status docker
-      register: status
-
-      with_items:
-
-           - status.stdout
-           
-           
+      
