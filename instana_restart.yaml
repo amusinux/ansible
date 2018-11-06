@@ -1,0 +1,4 @@
+---
+
+- name: restart instana agent
+  service: name=instana-agent state=restarted
