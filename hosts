@@ -12,7 +12,8 @@
 dev03.linux.timocom.net
 docker-dev01.online.timocom.net
 
-[alpha]
+[pro]
+redaktion-pro01.portal.timocom.net
 
 [ansible-tower]
 ansible-dev02.linux.timocom.net
