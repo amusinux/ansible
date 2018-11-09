@@ -10,6 +10,7 @@
 
 [dev]
 dev03.linux.timocom.net
+dev04.linux.timocom.net
 docker-dev01.online.timocom.net
 
 [pro]
