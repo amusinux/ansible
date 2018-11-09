@@ -8,7 +8,7 @@
       register: uptime
 
     - name: get hostname
-      shell: /usr/bin/hostname
+      shell: /bin/hostname
       changed_when: False
       register: hostname
 
